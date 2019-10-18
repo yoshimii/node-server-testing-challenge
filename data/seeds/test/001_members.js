@@ -5,9 +5,9 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex('resource').insert([
-        {member_name: 'Blue'},
-        {member_name: 'Mikey'},
-        {member_name: 'Boo'}
+        {member: 'Edward'},
+        {member: 'Alphonse'},
+        {member: 'Strong'}
       ]);
     });
 };

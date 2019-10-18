@@ -1,5 +1,6 @@
 const express = require('express')
 const ResourceController = require('./ResourceController')
+const ResourceModel = require('./ResourceModel')
 const { validateFields } = require('../middleware/validateFields')
 
 const router = express.Router()

@@ -9,24 +9,25 @@ module.exports = {
     },
     useNullAsDefault: true,
     migrations: {
-      directory: './data/migrations',
+      directory: './data/migrations/development',
     },
     seeds: {
-      directory: './data/seeds',
+      directory: './data/seeds/development',
     },
-  testing: {
+  },
+
+  test: {
     client: 'sqlite3',
     connection: {
       filename: './data/test.db3',
     },
     useNullAsDefault: true,
     migrations: {
-      directory: './data/migrations',
+      directory: './data/migrations/test',
     },
     seeds: {
-      directory: './data/seeds',
+      directory: './data/seeds/test',
     },
-  },
   },
 
   staging: {
