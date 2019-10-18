@@ -57,6 +57,5 @@ describe('resource-model', () => {
         })
     })
     
-
     
 })
